@@ -4,3 +4,6 @@ members = [
     "examples",
     "cargo-apk",
 ]
+
+[patch.crates-io]
+cargo-subcommand = { git = "https://github.com/rust-mobile/cargo-subcommand.git", rev = "f715c99" }
